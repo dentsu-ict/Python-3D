@@ -86,7 +86,6 @@ def Event_Processing(event):
 
 def main():
     global screen
-    global player_img
     pygame.init()
     screen = pygame.display.set_mode(SCREEN_SIZE)
     pygame.display.set_caption("3D")
