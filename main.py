@@ -91,7 +91,6 @@ def main():
     pygame.display.set_caption("3D")
     fps = pygame.time.Clock()
     star=[np.array([random.randint(0,640)-320,random.randint(0,480)-240,random.randint(0,1000)]) for i in range(1000)]
-    print(star)
     eye = SetVector(0.0, 0.0, -20.0)
     center = SetVector(0.0, 0.0, 0.0)
     up = SetVector(0.0, 1.0, 0.0)
